@@ -1,0 +1,9 @@
+begin
+ numeric basic,gross,hra,da
+ print("Enter the basic salary")
+ input basic
+ hra=0.56*basic
+ da=0.78*basic
+ gross=basic+hra+da
+ print("The gross salary is :",gross)
+end

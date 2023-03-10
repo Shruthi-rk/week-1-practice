@@ -1,0 +1,9 @@
+begin
+ numeric num
+ print("Enter a number")
+ input num
+ if(num>0)
+   print(num,"is a positive number")
+ else
+   print(num,"is a negative number")
+end
