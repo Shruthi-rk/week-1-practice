@@ -1,0 +1,40 @@
+begin
+ String project,internal,external
+ numeric projectscore,internalscore,externalscore
+ print("Enter the subject name")
+ input project,internal,external
+ print("Enter the subject score")
+ input projectscore,internalscore,externalscore
+ if(projectscore>=50&&internalscore>=50&&externalscore>=50)
+ {
+   print("Student passed");
+   total=(0.7*projectscore)+(0.2*externalscore)+(0.1*internalscore)
+   if(total>=90)
+   {
+    print("GRADE A")
+   }
+   else if(total>=70)
+   {
+    print("GRADE B")
+   }
+   else
+   {
+    print("GRADE C")
+   }
+ }
+ else
+ {
+   if(projectscore<50)
+   {
+    print("student failed in",project,"score is",projectscore);
+   }
+   if(externalscore<50)
+   {
+    print("student failed in",external,"score is",externalscore);
+   }
+   if(internalscore<50)
+   {
+    print("student failed in",internal,"score is",internalscore);
+   }
+ }
+end
