@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-class Example1 {
+class SumEven {
  
   public static void main(String args[]) {
     Scanner s = new Scanner(System.in);
@@ -9,7 +9,7 @@ class Example1 {
     num = s.nextInt(); // 100
  
     for (int i = 1; i <= num; i++) {
-      if (i % 2 != 0) {
+      if (i % 2 == 0) {
         sum = sum + i;
       }
     }
