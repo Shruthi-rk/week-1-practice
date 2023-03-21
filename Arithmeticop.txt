@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class ArithmeticOp
+{
+public static void main (String args[])
+{
+Scanner s= new Scanner(System.in);
+int num1,sum,diff,pro,div,num2;
+System.out.println("Enter first number");
+num1=s.nextInt();  
+System.out.println("Enter second number");
+num2=s.nextInt();  
+  sum=num1+num2;
+  diff=num1-num2;
+  pro=num1*num2;
+  div=num1/num2;
+System.out.println("Addition is : "+sum );
+System.out.println("Subtraction is : "+diff );
+System.out.println("Multiplication is : "+pro );
+System.out.println("Division is : "+div );
+}
+}
