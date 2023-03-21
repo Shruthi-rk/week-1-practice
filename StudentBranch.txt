@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class NestedSwitchBranch
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter student year ");
+        int year=sc.nextInt();
+        System.out.println("Enter student branch ");
+        char ch=sc.next().charAt(0);
+        
+        switch(year){
+            case 1 :
+                System.out.println("1 st year");
+                switch(ch){
+                    case 'c':
+                        System.out.println("Subjects are M1,Chemistry,Basic Electronics,C");
+                        break;
+                    case 'p':
+                        System.out.println("Subjects are Physics,Civil and CAD");
+                        break;
+                }
+                
+                break;
+            case 2 :
+                System.out.println("2nd year");
+                switch(ch){
+                    case 'c':
+                        System.out.println("Subjects are java mysql computer");
+                        break;
+                    case 'm':
+                        System.out.println("Subjects are thermodynamic automobile mechanical");
+                        break;
+                    case 'e':
+                        System.out.println("Subjects are network signals electronics");
+                        break;
+                       
+                }
+                break;
+           
+            default :
+                 System.out.println("Invalid input");
+                 break;
+                
+        }
+        
+        
+    }
+}
