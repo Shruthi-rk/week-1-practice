@@ -1,0 +1,26 @@
+import java.util.Scanner;
+ 
+class SeasonSwitch {
+ 
+    public static void main(String args[]) 
+  {
+    Scanner s = new Scanner(System.in);
+    System.out.println("Enter the season name");
+    String season=s.next();
+    switch(season)
+      {
+        case "Summer":System.out.println("April to June");
+              break;
+        case "Monsoon":System.out.println("July to Mid September");
+               break;
+        case "Winter":System.out.println("December to January");
+               break;
+        case "Spring":System.out.println("Febraury to March");
+               break;
+        case "Autumn":System.out.println("September to November end");
+               break;
+        default:System.out.println("Invalid season selection");
+               break;
+      }
+  }
+}
