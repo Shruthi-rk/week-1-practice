@@ -1,0 +1,24 @@
+import java.util.Scanner;
+ 
+class Max1 {
+ 
+  public static void main(String args[]) {
+    Scanner s = new Scanner(System.in);
+    int max=0;
+    int num=0;
+    System.out.println("How many values do you want to enter :");
+    num = s.nextInt();
+    System.out.println("Enter the values:");
+    for(i=0;i<=5;i++)
+    {
+    n = s.nextInt();
+    if(n>max)
+    {
+     max=n;
+    }
+    }
+    System.out.println("output : " +max);
+ 
+  }
+ 
+}
