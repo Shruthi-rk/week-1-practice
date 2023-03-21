@@ -1,0 +1,24 @@
+import java.util.Scanner;
+ 
+class Min1 {
+ 
+  public static void main(String args[]) {
+    Scanner s = new Scanner(System.in);
+    int min=-1;
+    int num=0;
+    System.out.println("How many values do you want to enter :");
+    num = s.nextInt();
+    System.out.println("Enter the values:");
+    for(i=0;i<=5;i++)
+    {
+    n = s.nextInt();
+    if(n<min)
+    {
+     min=n;
+    }
+    }
+    System.out.println("output : " +min);
+ 
+  }
+ 
+}
