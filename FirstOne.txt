@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class FirstOne
+{
+    public static void main (String args[])
+    {
+     Scanner s=new Scanner(System.in);
+     int a[]=new int[6];
+     for(int i=0;i<a.length;i++)
+    {
+    System.out.println("Enter the number"+(i+1));
+    a[i]=s.nextInt();
+    }
+    int newa[]=new int[5];
+    for(int i=1;i<=newa.length;i++)
+    {
+     newa[i-1]=a[i];
+    }
+    for(int i=0;i<newa.length;i++)
+    { 
+     System.out.println(newa[i]);
+    }
+    }
+}
